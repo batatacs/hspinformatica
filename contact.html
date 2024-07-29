@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>hsp Informática</title>
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/fonts/themify-icons.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/css/jquery-simple-mobilemenu.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+	
+    <body data-spy="scroll" data-offset="80">
+
+		<div class="preloaders">
+			<span class="loader"></span>
+		</div>
+
+		<div id="navigation" class="navbar-light bg-faded site-navigation">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-20 align-self-center">
+						<div class="site-logo">
+							<a href="index.html"><img src="assets/img/hsp.png" alt=""></a>
+						</div>
+					</div>
+	
+					<div class="col-60 d-flex justify-content-center">
+						<nav id="main-menu">
+							<ul>
+								<li class="menu-item-has-children"><a href="index.html">Home</a></li>
+								<li class="menu-item-has-children"><a href="#">Sobre</a></li>
+								<li class="menu-item-has-children"><a href="#">Serviços</a></li>
+								<li class="menu-item-has-children"><a href="#">Vantagens & Benefícios</a>
+							</ul>
+						</nav>
+					</div>
+	
+					<div class="col-20 d-none d-xl-block text-end align-self-center">
+						<a href="#" class="btn_one">Comece Agora</a>
+					</div>
+	
+					<ul class="mobile_menu">
+						<li class="menu-item-has-children"><a href="#">Home</a></li>
+						<li class="menu-item-has-children"><a href="#Sobre">Sobre</a></li>
+						<li class="menu-item-has-children"><a href="#">Serviços</a></li>
+						<li class="menu-item-has-children"><a href="#">Vantagens & Benefícios</a>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<section class="section-top">
+			<div class="container">
+				<div class="col-lg-10 offset-lg-1 text-center">
+					<div class="section-top-title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+						<h1>Contato</h1>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li> / Contato</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<section class="address_area section-padding">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+						<div class="single_address">
+							<i class="ti-map"></i>
+							<h4>Nossa localização</h4>
+							<p>Santa Rita do Passa Quatro <br/> São Paulo</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+						<div class="single_address sabr">
+							<i class="ti-mobile"></i>
+							<h4>Telefone</h4>
+							<p>(19) 9 8285-6166 </p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+						<div class="single_address">
+							<i class="ti-email"></i>
+							<h4>Enviar email</h4>
+							<p>contato@hspinformatica.com.br</p>
+						</div>
+					</div>		  
+				</div>
+			</div>
+		</section>	
+
+		<div id="contact" class="contact_area section-padding">
+			<div class="container">
+				<div class="section-title text-center">
+					<span>Entrar em contato</span>
+					<h2>Contate-nos para qualquer tipo <br />de Consultoria</h2>
+				</div>			
+				<div class="row">					
+					<div class="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+						<div class="contact">
+							<form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+								<div class="row">
+									<div class="form-group col-md-6">
+										<label for="">Nome</label>
+										<input type="text" name="name" class="form-control" required="required">
+									</div>
+									<div class="form-group col-md-6">
+										<label for="">Seu E-mail</label>
+										<input type="email" name="email" class="form-control" required="required">
+									</div>
+									<div class="form-group col-md-12">
+										<label for="">Assunto</label>
+										<input type="text" name="subject" class="form-control" required="required">
+									</div>
+									<div class="form-group col-md-12">
+										<label for="">Sua Mensagem</label>
+										<textarea rows="6" name="message" class="form-control" required="required"></textarea>
+									</div>
+									<div class="col-md-12 text-center">
+										<button type="submit" value="Send message" name="submit" id="submitButton" class="btn_one" title="Submit Your Message!">Enviar Mensagem</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>			
+				</div>		
+			</div>
+		</div>
+		
+		<div class="footer section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="single_footer">
+							<a href="#"><img src="assets/img/hsp.png" alt=""></a>
+							<p>Acompanhe nossas Redes Sociais</p>
+							<div class="social_profile">
+								<ul>
+									<li><a href="#" class="f_facebook"><i class="ti-facebook" title="Facebook"></i></a></li>
+									<li><a href="#" class="f_twitter"><i class="ti-twitter" title="Twitter"></i></a></li>
+									<li><a href="#" class="f_instagram"><i class="ti-instagram" title="Instagram"></i></a>
+									</li>
+									<li><a href="#" class="f_linkedin"><i class="ti-linkedin" title="LinkedIn"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="single_footer">
+							<h4>Sobre a Empresa</h4>
+							<ul>
+								<li><a href="#">Sobre </a></li>
+								<li><a href="#">Serviços</a></li>
+								<li><a href="#">Vantagens & Benefícios</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="single_footer">
+							<h4>Nossos Serviços</h4>
+							<ul>
+								<li><a href="#">Proteção de rede</a></li>
+								<li><a href="#">backup corporativo</a></li>
+								<li><a href="#">Solução cibernética</a></li>
+								<li><a href="#">CFTV Empresarial</a></li>
+								<li><a href="#">Telefonia Empresarial</a></li>
+								<li><a href="#">Virtualização de Servidores</a></li>
+								<li><a href="#">Nuvem Privada</a></li>
+								<li><a href="#">Controle de Pontos</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="single_footer">
+							<h4>Termos</h4>
+							<ul>
+								<li><a href="#" id="openTermosModalLink">Termos de Uso</a></li>
+								<li><a href="#" id="openPrivacidadeModalLink">Política de Privacidade</a></li>
+								<li><a href="#" id="openCookiesModalLink">Política de Cookies</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="termosModal" class="modal">
+					<div class="modal-content">
+						<span class="close" data-modal="termosModal">&times;</span>
+						<h2>Termos de Uso</h2>
+						<p>Data de vigência: 28 de julho de 2024</p>
+						<h3>1. Aceitação dos Termos</h3>
+						<p>Ao acessar e usar este site, você concorda em cumprir e estar vinculado a estes Termos de Uso. Se
+							você não concorda com algum dos termos aqui presentes, por favor, não utilize nosso site.</p>
+						<h3>2. Modificações nos Termos</h3>
+						<p>A HSP Informática reserva-se o direito de alterar estes Termos de Uso a qualquer momento sem
+							aviso prévio. É sua responsabilidade revisar periodicamente os termos atualizados.</p>
+						<h3>3. Uso do Site</h3>
+						<p>Você concorda em usar o site da HSP Informática apenas para fins legais e de acordo com todas as
+							leis aplicáveis. Você se compromete a não utilizar o site para qualquer atividade que possa
+							prejudicar a HSP Informática ou outros usuários.</p>
+						<h3>4. Propriedade Intelectual</h3>
+						<p>Todo o conteúdo deste site, incluindo textos, gráficos, logotipos, imagens e software, é de
+							propriedade exclusiva da HSP Informática ou de seus licenciadores e está protegido por leis de
+							direitos autorais e outras leis de propriedade intelectual.</p>
+						<h3>5. Limitação de Responsabilidade</h3>
+						<p>A HSP Informática não será responsável por quaisquer danos diretos, indiretos, incidentais,
+							consequenciais ou punitivos resultantes do uso ou da incapacidade de usar este site. Isso
+							inclui, mas não se limita a, danos por perda de dados ou lucros.</p>
+						<h3>6. Indenização</h3>
+						<p>Você concorda em indenizar e isentar a HSP Informática e seus diretores, funcionários e agentes
+							de qualquer reclamação, perda, responsabilidade, demanda ou despesa (incluindo honorários
+							advocatícios) decorrentes do seu uso do site.</p>
+						<h3>7. Links para Sites Externos</h3>
+						<p>Nosso site pode conter links para sites de terceiros. Esses links são fornecidos apenas para sua
+							conveniência. A HSP Informática não é responsável pelo conteúdo ou pelas práticas de privacidade
+							desses sites.</p>
+						<h3>8. Lei Aplicável</h3>
+						<p>Estes Termos de Uso serão regidos e interpretados de acordo com as leis do Brasil, sem levar em
+							conta seus conflitos de princípios legais.</p>
+						<h3>9. Contato</h3>
+						<p>Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco através do email:
+							contato@hspinformatica.com.br.</p>
+					</div>
+				</div>
+				<div id="privacidadeModal" class="modal">
+					<div class="modal-content">
+						<span class="close" data-modal="privacidadeModal">&times;</span>
+						<h3>1. Informações Coletadas</h3>
+						<p>Coletamos informações pessoais como nome, email e telefone quando você entra em contato conosco
+							ou se cadastra em nossos serviços. Também coletamos dados de navegação, como endereço IP, tipo
+							de navegador e páginas visitadas.</p>
+						<h3>2. Uso das Informações</h3>
+						<p>Usamos as informações coletadas para fornecer e melhorar nossos serviços, responder às suas
+							solicitações e enviar comunicações relevantes. Também podemos usar seus dados para fins de
+							marketing, desde que você tenha dado seu consentimento.</p>
+						<h3>3. Compartilhamento de Informações</h3>
+						<p>Não compartilhamos suas informações pessoais com terceiros, exceto quando necessário para
+							fornecer nossos serviços, cumprir obrigações legais ou com seu consentimento.</p>
+						<h3>4. Proteção das Informações</h3>
+						<p>Adotamos medidas de segurança adequadas para proteger suas informações pessoais contra acesso,
+							alteração, divulgação ou destruição não autorizados.</p>
+						<h3>5. Direitos dos Usuários</h3>
+						<p>Você tem o direito de acessar, corrigir, excluir e limitar o uso de suas informações pessoais.
+							Para exercer esses direitos, entre em contato conosco através do email fornecido abaixo.</p>
+						<h3>6. Alterações na Política de Privacidade</h3>
+						<p>Podemos atualizar esta política de privacidade periodicamente. Recomendamos que você revise esta
+							página regularmente para se manter informado sobre quaisquer mudanças.</p>
+						<h3>7. Contato</h3>
+						<p>Se você tiver dúvidas ou preocupações sobre nossa política de privacidade, entre em contato
+							conosco através do email: contato@hspinformatica.com.br.</p>
+					</div>
+				</div>
+				<div id="cookiesModal" class="modal">
+					<div class="modal-content">
+						<span class="close" data-modal="cookiesModal">&times;</span>
+						<h2>Política de Cookies</h2>
+						<h3>1. O que são Cookies?</h3>
+						<p>Cookies são pequenos arquivos de texto armazenados no seu dispositivo quando você visita nosso
+							site. Eles ajudam a melhorar sua experiência, permitindo que o site se lembre de suas ações e
+							preferências.</p>
+						<h3>2. Como Usamos Cookies?</h3>
+						<p>Usamos cookies para analisar o tráfego do site, personalizar conteúdo e anúncios, e melhorar a
+							funcionalidade do site. Também podemos usar cookies de terceiros para fins de publicidade e
+							análise.</p>
+						<h3>3. Controle de Cookies</h3>
+						<p>Você pode controlar e/ou excluir cookies como desejar. A maioria dos navegadores permite que você
+							recuse ou aceite cookies. No entanto, se você optar por desativar cookies, algumas
+							funcionalidades do site podem ser afetadas.</p>
+						<h3>4. Alterações na Política de Cookies</h3>
+						<p>Podemos atualizar esta política de cookies periodicamente. Recomendamos que você revise esta
+							página regularmente para se manter informado sobre quaisquer mudanças.</p>
+						<h3>5. Contato</h3>
+						<p>Se você tiver dúvidas ou preocupações sobre nossa política de cookies, entre em contato conosco
+							através do email: contato@hspinformatica.com.br.</p>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+		<div class="row fc">
+			<div class="col-lg-6 col-sm-6 col-xs-12">
+				<div class="footer_copyright">
+					<p>&copy; 2024. Todos os direitos reservados. Desenvolvido por Anderson Camilo</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="whatsapp-button">
+			<a href="https://wa.me/1234567890" target="_blank">
+				<i class="fab fa-whatsapp"></i>
+				Fale Conosco
+			</a>
+		</div>
+
+		<script src="assets/js/jquery-1.12.4.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/modernizr-2.8.3.min.js"></script>
+		<script src="assets/js/jquery-simple-mobilemenu.js"></script>
+		<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/jquery.inview.min.js"></script>
+		<script src="assets/js/jquery.stellar.min.js"></script>
+		<script src="assets/js/scrolltopcontrol.js"></script>
+		<script src="assets/js/superMarquee.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/scripts.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</body>
+	
+	</html>
