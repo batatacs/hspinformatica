@@ -762,6 +762,7 @@ fieldset {
     max-width: 709px;
     height: auto;
 	margin-top: 30px;
+	border-radius: 10px;
 }
 
 @media only screen and (max-width:960px) {
