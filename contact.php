@@ -3,7 +3,7 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$from = 'Hsp Informática'; 
+		$from = 'hsp Informática'; 
 		$to = 'contato@hspinformatica.com.br'; 
 		$subject = $_POST['subject']; 
 		
