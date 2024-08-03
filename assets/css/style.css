@@ -465,11 +465,10 @@ fieldset {
 		width: 100%;
 
 	}
-
 	#background-video2 {
 		display: none;
 	}
-
+}
 
 @media only screen and (max-width: 575px) {
 	#navigation {
@@ -509,7 +508,7 @@ fieldset {
 
 #background-video2 {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     width: 100%;
     height: auto;
@@ -2082,6 +2081,4 @@ blockquote::before,
 
 .modal-content p {
     color: #666;
-}
-
 }
