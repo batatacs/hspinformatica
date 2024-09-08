@@ -140,7 +140,7 @@
                 if(name && email && subject && message) {
                     // Monta a mensagem para o WhatsApp
                     var whatsappMessage = `Nome: ${name}%0AEmail: ${email}%0AAssunto: ${subject}%0AMensagem: ${message}`;
-                    var whatsappNumber = '55123456789'; // Substitua com o número de WhatsApp desejado, incluindo o código do país
+                    var whatsappNumber = '5519982856166'; // Substitua com o número de WhatsApp desejado, incluindo o código do país
 
                     // Redireciona para o WhatsApp com a mensagem
                     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
